@@ -23,3 +23,8 @@ yarn
 ```
 
 > Change `private` attribute to `false` on the packages.json to be able to push to npm.
+
+[dependencies-image]: https://david-dm.org/mrpatiwi/monorepo-starter.svg
+[dependencies-url]: https://david-dm.org/mrpatiwi/monorepo-starter
+[dev-dependencies-image]: https://david-dm.org/mrpatiwi/monorepo-starter/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/mrpatiwi/monorepo-starter#info=devDependencies
