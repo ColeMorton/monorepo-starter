@@ -1,0 +1,41 @@
+{
+  "name": "MonoRepo-starter-error",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "lib/Error.js",
+  "module": "src/Error.js",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "babel src --out-dir lib --source-maps",
+    "test": "jest"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "author": "Patricio López <lopezjuripatricio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "es6-error": "^4.0.2"
+  },
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      ["env", {
+        "exclude": ["transform-regenerator"]
+      }]
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
